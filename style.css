@@ -1,0 +1,157 @@
+html{
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+/*Header with navigation*/
+header{
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header img{
+    height: 50px;
+    width: auto;
+    margin: 10px;
+    float: left;
+}
+
+header nav{
+    float: right;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+header a{
+    color: seashell;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Mission*/
+
+.mission {
+    background-image: url("./img/img-mission-background.jpg");
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+    margin-top: 50px;
+}
+.mission h2{
+    margin: 10px 0 15px 0;
+}
+.mission h4{
+    margin: 10px;
+}
+.mission section{
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+    height: fit-content;
+}
+
+/*Tea of the Month*/
+
+.teaOfTheMonth {
+    display: block;
+    height: auto;
+    width: 1000px;
+    margin-top: 50px;
+}
+.teaOfTheMonth section{
+    width:100%;
+}
+.img_container{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.img_container img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+.img_container figure{
+    padding:0;
+    border:0;
+    margin: 0;
+}
+
+/*Location*/
+
+.location {
+    background-image: url("./img/img-locations-background.jpg");
+    display: block;
+    height: 500px;
+    width: 1000px;
+    align-items: center;
+    margin-top: 100px;
+    background-size: cover;
+
+}
+.location h2{
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.adr_container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.adress {
+    background-color: black;
+    opacity: 1;
+    width: 275px;
+    margin: 15px 20px;
+    padding: 5px 0;
+}
+.adress h3{
+    padding-bottom:10px;
+    margin:25px 0 0 0;
+}
+.adress p{
+    padding:5px;
+    font-size: 20px;
+}
+
+/*Contact*/
+.contact{
+    height: 200px;
+}
+.contact h2{
+    margin: 25px 0 40px 0;
+}
+
+/*Footer*/
+footer{
+    text-align: left;
+    padding-left: 20px;
+}
+footer h5{
+    margin-bottom: 20px;
+}
